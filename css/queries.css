@@ -6,11 +6,13 @@
     justify-content: center;
   }
 }
+
 @media (max-width: 1410px) {
   html {
     font-size: 56.25%;
   }
 }
+
 @media (max-width: 1280px) {
   .brand-info {
     display: grid;
@@ -23,50 +25,155 @@
     border: none;
   }
 }
+
 @media (max-width: 1170px) {
   html {
     font-size: 50%;
   }
+
   #element-to-hide1 {
     display: none;
   }
 }
+
 @media (max-width: 1050px) {
   html {
     font-size: 40%;
   }
+
   .banner-content {
     background-size: 70%;
     background-position: right;
   }
 }
+
 @media (max-width: 870px) {
   html {
     font-size: 33%;
   }
 }
+
 @media (max-width: 690px) {
   #logo-large {
     display: none;
   }
+
   #logo-small {
     display: block;
   }
+
   #icon-small {
     display: block;
   }
+
   #icon-large {
     display: none;
   }
+
   .hero {
+    display: block;
     background-image: none;
     background-color: #f8f8f8;
+    padding: 60px;
+    text-align: center;
   }
+
+  .hero-content {
+    position: relative;
+    width: auto;
+  }
+
+  .hero-content button {
+    position: absolute;
+    left: 15px;
+  }
+
   .hero h1 {
     margin-top: 0;
-    font-size: 5.2rem;
+    font-size: 4.2rem;
+    text-align: start;
   }
+
+  .hero p {
+    text-align: start;
+  }
+
   .dots {
-    left: 20%;
+    padding-left: 5rem;
+    left: auto
+  }
+
+  .collection-title {
+    text-align: center;
+  }
+
+  .collection-items {
+    justify-content: center;
+  }
+
+  .brand-info {
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: auto auto;
+  }
+
+  .brand-info-column {
+    display: none;
+  }
+
+  .brand-info-mobile {
+    display: block;
+    padding-left: 30px;
+  }
+
+  .brand-info-mobile h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .asd {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .asd img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .asd p {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  .collection-title span {
+    display: none;
+  }
+
+  #element-to-hide2 {
+    display: none;
+  }
+
+  .recommendation-title {
+    text-align: center;
+  }
+
+  .recommendation-title span {
+    display: none;
+  }
+
+  .main-footer {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .bottom-footer {
+    text-align: center;
+    justify-content: center;
   }
 }
