@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Nexton</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="#">
+          <img id="logo-large" src="../Nexton/img/logo.png" alt="logo" />
+          <img id="logo-small" src="../Nexton/img/favicon.png" alt="logo" />
+        </a>
+      </div>
+      <div class="search-bar">
+        <button>
+          <ion-icon class="search-icon" name="search-outline"></ion-icon>
+        </button>
+        <input type="text" placeholder="Search in products..." />
+      </div>
+      <div class="header-buttons">
+        <button>
+          <ion-icon
+            id="icon-large"
+            class="header-button"
+            name="person-outline"
+          ></ion-icon>
+          <ion-icon
+            id="icon-large"
+            class="header-button"
+            name="cart-outline"
+          ></ion-icon>
+          <ion-icon id="icon-small" name="menu-outline"></ion-icon>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p>Starting from: $49.99</p>
+          <h1>Exclusive collection for everyone</h1>
+          <button>
+            Explore now
+            <ion-icon class="search-icon" name="search-outline"></ion-icon>
+          </button>
+        </div>
+        <div class="dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </section>
+      <section class="brand-info">
+        <div class="brand-info-column">
+          <img src="../Nexton/img/svg.png" />
+          <div class="brand-info-text">
+            <h3>Free shipping</h3>
+            <p>On orders over $50.00</p>
+          </div>
+        </div>
+        <div class="brand-info-column">
+          <img src="../Nexton/img/svg (1).png" />
+          <div class="brand-info-text">
+            <h3>Very easy to return</h3>
+            <p>Just phone number</p>
+          </div>
+        </div>
+        <div class="brand-info-column">
+          <img src="../Nexton/img/svg (2).png" />
+          <div class="brand-info-text">
+            <h3>Worldwide delivery</h3>
+            <p>Fast delivery worldwide</p>
+          </div>
+        </div>
+        <div class="brand-info-column">
+          <img src="../Nexton/img/svg (3).png" />
+          <div class="brand-info-text">
+            <h3>Refunds policy</h3>
+            <p>60 days return for any reason</p>
+          </div>
+        </div>
+      </section>
+      <section class="collection">
+        <h2 class="collection-title">
+          Start exploring. <span> Good things are waiting for you</span>
+        </h2>
+        <div class="collection-items">
+          <div class="collection-item">
+            <div class="item-right">
+              <h3 class="item-title">For Men's</h3>
+              <p class="item-description">Starting at $24</p>
+            </div>
+            <div class="shop-now"><a href="#">SHOP NOW &rarr; </a></div>
+          </div>
+          <div class="collection-item">
+            <div class="item-right">
+              <h3 class="item-title">For Women's</h3>
+              <p class="item-description">Starting at $19</p>
+            </div>
+            <div class="shop-now"><a href="#">SHOP NOW &rarr; </a></div>
+          </div>
+          <div class="collection-item" id="element-to-hide1">
+            <div class="item-right">
+              <h3 class="item-title">Accessories</h3>
+              <p class="item-description">Explore accessories</p>
+            </div>
+            <div class="shop-now"><a href="#">SHOP NOW &rarr; </a></div>
+          </div>
+        </div>
+        <div class="dots2">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </section>
+      <section class="recommendation-section">
+        <h2 class="recommendation-title">
+          Recommendations.<span> Best matching products for you</span>
+        </h2>
+        <div class="recommended-products">
+          <div class="pr-card">
+            <div class="product-card">
+              <button class="icon-button">
+                <img src="./img/cart-btn.png" />
+              </button>
+              <img src="./img/image.png" alt="product image" />
+            </div>
+            <div class="product-info">
+              <div class="pr-info-left">
+                <h3>Black Automatic Watch</h3>
+                <p>Accessories</p>
+                <p><ion-icon class="star" name="star"></ion-icon> 4.9 (98)</p>
+              </div>
+              <div class="pr-info-right">
+                <h3>$169.99</h3>
+                <p class="line-through">199.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="pr-card">
+            <div class="product-card">
+              <button class="icon-button">
+                <img src="./img/cart-btn.png" />
+              </button>
+              <img src="./img/image.png" alt="product image" />
+            </div>
+            <div class="product-info">
+              <div class="pr-info-left">
+                <h3>Black Automatic Watch</h3>
+                <p>Accessories</p>
+                <p><ion-icon class="star" name="star"></ion-icon> 4.9 (98)</p>
+              </div>
+              <div class="pr-info-right">
+                <h3>$169.99</h3>
+                <p class="line-through">199.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="pr-card">
+            <div class="product-card">
+              <button class="icon-button">
+                <img src="./img/cart-btn.png" />
+              </button>
+              <img src="./img/image.png" alt="product image" />
+            </div>
+            <div class="product-info">
+              <div class="pr-info-left">
+                <h3>Black Automatic Watch</h3>
+                <p>Accessories</p>
+                <p><ion-icon class="star" name="star"></ion-icon> 4.9 (98)</p>
+              </div>
+              <div class="pr-info-right">
+                <h3>$169.99</h3>
+                <p class="line-through">199.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="pr-card">
+            <div class="product-card">
+              <button class="icon-button">
+                <img src="./img/cart-btn.png" />
+              </button>
+              <img src="./img/image.png" alt="product image" />
+            </div>
+            <div class="product-info">
+              <div class="pr-info-left">
+                <h3>Black Automatic Watch</h3>
+                <p>Accessories</p>
+                <p><ion-icon class="star" name="star"></ion-icon> 4.9 (98)</p>
+              </div>
+              <div class="pr-info-right">
+                <h3>$169.99</h3>
+                <p class="line-through">199.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dots2">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </section>
+      <section class="bestsellers-section">
+        <h2 class="recommendation-title">
+          Best Sellers.<span> Best selling of the month</span>
+        </h2>
+        <div class="recommended-products">
+          <div class="pr-card">
+            <div class="product-card">
+              <button class="icon-button">
+                <img src="./img/cart-btn.png" />
+              </button>
+              <img src="./img/image.png" alt="product image" />
+            </div>
+            <div class="product-info">
+              <div class="pr-info-left">
+                <h3>Black Automatic Watch</h3>
+                <p>Accessories</p>
+                <p><ion-icon class="star" name="star"></ion-icon> 4.9 (98)</p>
+              </div>
+              <div class="pr-info-right">
+                <h3>$169.99</h3>
+                <p class="line-through">199.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="pr-card">
+            <div class="product-card">
+              <button class="icon-button">
+                <img src="./img/cart-btn.png" />
+              </button>
+              <img src="./img/image.png" alt="product image" />
+            </div>
+            <div class="product-info">
+              <div class="pr-info-left">
+                <h3>Black Automatic Watch</h3>
+                <p>Accessories</p>
+                <p><ion-icon class="star" name="star"></ion-icon> 4.9 (98)</p>
+              </div>
+              <div class="pr-info-right">
+                <h3>$169.99</h3>
+                <p class="line-through">199.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="pr-card">
+            <div class="product-card">
+              <button class="icon-button">
+                <img src="./img/cart-btn.png" />
+              </button>
+              <img src="./img/image.png" alt="product image" />
+            </div>
+            <div class="product-info">
+              <div class="pr-info-left">
+                <h3>Black Automatic Watch</h3>
+                <p>Accessories</p>
+                <p><ion-icon class="star" name="star"></ion-icon> 4.9 (98)</p>
+              </div>
+              <div class="pr-info-right">
+                <h3>$169.99</h3>
+                <p class="line-through">199.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="pr-card">
+            <div class="product-card">
+              <button class="icon-button">
+                <img src="./img/cart-btn.png" />
+              </button>
+              <img src="./img/image.png" alt="product image" />
+            </div>
+            <div class="product-info">
+              <div class="pr-info-left">
+                <h3>Black Automatic Watch</h3>
+                <p>Accessories</p>
+                <p><ion-icon class="star" name="star"></ion-icon> 4.9 (98)</p>
+              </div>
+              <div class="pr-info-right">
+                <h3>$169.99</h3>
+                <p class="line-through">199.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dots2">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </section>
+      <section class="banner">
+        <div class="container">
+          <div class="banner-content">
+            <p>100% Original Products</p>
+            <h1>The All New Fashion Collection Items</h1>
+            <p>Starting from: $59.99</p>
+            <button>Shop Now</button>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="main-footer">
+          <div class="footer-column">
+            <a href="#">
+              <img
+                class="footer-logo"
+                src="../Nexton/img/logo.png"
+                alt="logo"
+              />
+            </a>
+            <div class="social-icons">
+              <a href="#"
+                ><img src="../Nexton/img/svg (4).png" alt="Facebook" /> Facebook
+              </a>
+              <a href="link_to_youtube"
+                ><img src="../Nexton/img/svg (5).png" alt="YouTube" /> Youtube
+              </a>
+              <a href="link_to_telegram"
+                ><img
+                  src="../Nexton/img/svg (6).png"
+                  alt="Telegram"
+                />Telegram</a
+              >
+              <a href="link_to_twitter"
+                ><img src="../Nexton/img/svg (7).png" alt="Twitter" />Twitter</a
+              >
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Getting Started</h3>
+            <a href="#">Release Notes</a>
+            <a href="#">Upgrade Guide</a>
+            <a href="#">Browser Support</a>
+            <a href="#">Dark Mode</a>
+          </div>
+          <div class="footer-column">
+            <h3>Explore</h3>
+            <a href="#">Prototyping</a>
+            <a href="#">Design systems</a>
+            <a href="#">Pricing</a>
+            <a href="#">Security</a>
+          </div>
+          <div class="footer-column">
+            <h3>Community</h3>
+            <a href="#">Discussion Forums</a>
+            <a href="#">Code of Conduct</a>
+            <a href="#">Contributing</a>
+            <a href="#">API Reference</a>
+          </div>
+        </div>
+        <div class="bottom-footer">
+          <div class="left-block">Nexton eCommerce. &copy; 2024</div>
+          <div class="right-block">
+            <img src="../Nexton/img/visa.png" alt="Image 1" />
+            <img src="../Nexton/img/paypal.png" alt="Image 2" />
+            <img src="../Nexton/img/stripe.png" alt="Image 3" />
+            <img src="../Nexton/img/verisign.png" alt="Image 4" />
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
